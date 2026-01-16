@@ -1,0 +1,47 @@
+data_path: C:\Users\Venkat Sandeep\Downloads\GraphKAN     
+
+use_loopup: True
+
+
+start_hour: 8
+
+end_hour: 20
+
+time_window: 60 
+
+ablate_vehicle: False
+
+ablate_arm: False
+
+ablate_periodicity: False
+
+use_externel: False
+
+use_matrix_fuse: True
+
+observe_length: 12
+
+predict_length: 1
+
+
+observe_p: 7   #in the day, we observe the 7 first values 
+
+observe_t: 2
+
+test_ratio: 0.25
+
+model_name: VIT
+
+model_path: C:\Users\Venkat Sandeep\Downloads\GraphKAN
+
+use_cache_model: False
+
+epochs: 70
+
+batch_size: 1
+
+early_stopping: 2500
+
+learning_rate: 0.00005
+
+
